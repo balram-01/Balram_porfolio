@@ -8,9 +8,9 @@ const Footer = () => {
       <hr className='border-slate-200' />
 
       <div className='footer-container'>
-        <p>
-          © 2023 <strong>Adrian Hajdin</strong>. All rights reserved.
-        </p>
+      <p>
+    © {new Date().getFullYear()} <strong>Mansi Venkat Makane</strong>. All rights reserved.
+</p>
 
         <div className='flex gap-3 justify-center items-center'>
           {socialLinks.map((link) => (
